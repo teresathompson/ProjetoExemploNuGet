@@ -1,0 +1,36 @@
+# .NET build files
+bin/
+obj/
+
+# Visual Studio files
+.vs/
+.vscode/
+
+# NuGet packages
+packages/
+*.nupkg
+*.snupkg
+
+# User-specific files
+*.suo
+*.user
+*.userprefs
+*.bak
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+AnyCPU/
+*.cache
+*.log
+
+# Build/test results
+[Test]Results/
+[nN]ode_[mM]odules/
+*.pidb
+*.resharper
+*.TestResults
