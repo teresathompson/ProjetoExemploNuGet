@@ -19,9 +19,10 @@ steps:
 
 - task: VSBuild@1
   inputs:
-    solution: 'ProjetoExemploNuGet.csproj'
-    platform: 'x64'
-    configuration: 'Release'
+    solution: '$(solution)'
+    platform: '$(buildPlatform)'
+    configuration: '$(buildConfiguration)'
+
 - task: NuGetCommand@2
   inputs:
     command: 'pack'
@@ -41,10 +42,5 @@ steps:
     nuGetFeedType: 'internal'
     publishVstsFeed: '458c39a4-b54f-4f21-bf7e-603c9204f311'
 
-- task: VSBuild@1
-  inputs:
-    solution: '$(solution)'
-    platform: '$(buildPlatform)'
-    configuration: '$(buildConfiguration)'
 
 
