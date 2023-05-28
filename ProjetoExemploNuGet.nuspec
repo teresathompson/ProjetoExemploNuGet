@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>ProjetoExemploNuget</id>
+    <version>1.0.0</version>
+    <authors>Teresa Anne Thompson</authors>    
+    <description>Projeto de exemplo de pacote NuGet</description>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+   <group targetFramework=".NETCoreApp3.1" />
+  <group targetFramework="net6.0-windows10.0.19041.0">
+    <frameworkAssembly assemblyName="Microsoft.WindowsDesktop.App" />
+  </group>
+    <icon>PacManNoBG.png</icon>
+  </metadata>
+  <files>
+    <file src="bin\**.*" target="lib\**.*" />
+    <file src="images\PacManNoBG.png" target="" />
+  </files>
+</package>
