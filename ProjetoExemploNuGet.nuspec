@@ -7,7 +7,7 @@
     <description>Projeto de exemplo de pacote NuGet</description>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
   
-    <icon>PacManNoBG.png</icon>
+    <icon>images/PacManNoBG.png</icon>
   </metadata>
   <files>
     <file src="bin\x64\Release\net6.0-windows10.0.18362.0\**.*" target="lib" />
