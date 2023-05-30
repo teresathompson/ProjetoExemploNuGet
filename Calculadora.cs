@@ -8,6 +8,10 @@ using System.Threading.Tasks;
 // and more about our project templates, see: http://aka.ms/winui-project-info.
 
 namespace ProjetoExemploNuGet;
-public class Class1
+public class Calculadora
 {
+    public int Somar(int numero1, int numero2)
+    {
+        return numero1 + numero2;
+    }
 }

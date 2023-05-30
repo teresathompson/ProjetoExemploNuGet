@@ -6,14 +6,11 @@
     <authors>Teresa Anne Thompson</authors>    
     <description>Projeto de exemplo de pacote NuGet</description>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-   <group targetFramework=".NETCoreApp3.1" />
-  <group targetFramework="net6.0-windows10.0.19041.0">
-    <frameworkAssembly assemblyName="Microsoft.WindowsDesktop.App" />
-  </group>
+  
     <icon>PacManNoBG.png</icon>
   </metadata>
   <files>
-    <file src="bin\**.*" target="lib\**.*" />
+    <file src="bin\Release\**.*" target="lib" />
     <file src="images\PacManNoBG.png" target="" />
   </files>
 </package>
