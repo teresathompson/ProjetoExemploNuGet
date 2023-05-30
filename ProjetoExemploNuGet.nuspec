@@ -10,7 +10,7 @@
     <icon>PacManNoBG.png</icon>
   </metadata>
   <files>
-    <file src="bin\Release\**.*" target="lib" />
+    <file src="bin\Release\net6.0-windows10.0.18362.0\**.*" target="lib" />
     <file src="images\PacManNoBG.png" target="" />
   </files>
 </package>
