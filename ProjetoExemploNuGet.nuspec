@@ -7,7 +7,7 @@
     <description>Projeto de exemplo de pacote NuGet</description>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
   
-    <icon>images\PacManNoBG.png</icon>
+    <icon>PacManNoBG.png</icon>
 
   </metadata>
   <files>
