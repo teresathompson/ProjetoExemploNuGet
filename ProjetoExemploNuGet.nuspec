@@ -5,12 +5,9 @@
     <version>1.0.0</version>
     <authors>Teresa Anne Thompson</authors>    
     <description>Projeto de exemplo de pacote NuGet</description>
-    <requireLicenseAcceptance>false</requireLicenseAcceptance>  
-    <icon>PacManNoBG.png</icon>
-
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>   
   </metadata>
   <files>
-    <file src="bin\x64\Release\net6.0-windows10.0.18362.0\**.*" target="lib" />
-    <file src="images\PacManNoBG.png" target="" />    
+    <file src="bin\x64\Release\net6.0-windows10.0.18362.0\**.*" target="lib" />      
   </files>
 </package>
