@@ -8,9 +8,10 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
   
     <icon>images\PacManNoBG.png</icon>
+
   </metadata>
   <files>
     <file src="bin\x64\Release\net6.0-windows10.0.18362.0\**.*" target="lib" />
-    
+    <file src="bin\x64\Release\net6.0-windows10.0.18362.0\ProjetoExemploNuGet\images\PacManNoBG.png" target="bin\x64\Release\net6.0-windows10.0.18362.0\ProjetoExemploNuGet\images\PacManNoBG.png" />    
   </files>
 </package>
